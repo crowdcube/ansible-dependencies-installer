@@ -1,0 +1,5 @@
+---
+- name: Install dependencies one by one in a loop
+  apt:
+    name: "{{ item }}"
+  loop: "{{ dependencies }}"

@@ -1,0 +1,35 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: mpochowski
+  description: Dependencies installer via apt.
+  company: "Crowdcube"
+  license: "private"
+  min_ansible_version: 2.5
+  platforms:
+    - name: EL
+      versions:
+      - 6
+      - 7
+    - name: Fedora
+      versions:
+      - all
+    - name: Debian
+      versions:
+      - wheezy
+      - jessie
+      - stretch
+    - name: Ubuntu
+      versions:
+      - precise
+      - trusty
+      - xenial
+      - bionic
+    - name: FreeBSD
+      versions:
+      - 10.2
+  galaxy_tags:
+    - development
+    - system
+    - installer
