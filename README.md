@@ -1,6 +1,6 @@
 # Ansible Role: Dependencies installer
 
-Accepts list of dependencies and uses apt-get to install it one-by-one.
+Accepts list of dependencies using apt-get.
 
 ## Requirements
 
@@ -10,11 +10,11 @@ Ansible 2.5+
 
 Available variables are listed below, along with default values:
 
-    dependencies: []
+    apt_dependencies: []
 
 Example usage:
 
-    dependencies:
+    apt_dependencies:
       - foo
       - foo-tools
       - bar
